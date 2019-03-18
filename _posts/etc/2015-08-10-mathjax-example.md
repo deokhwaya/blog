@@ -9,6 +9,7 @@ tag:
 - example
 - test
 - jekyll
+category: etc
 comments: true
 ---
 
