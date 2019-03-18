@@ -92,17 +92,19 @@
 			</li>
 			<li>
 				<a href="#">Posts</a>
-				<ul class="dl-submenu">
+                <ul class="dl-submenu">
                     <li><a href="{{ site.url }}/posts/">All Posts</a></li>
                     <li><a href="{{ site.url }}/java/">Java</a></li>
                     <li><a href="{{ site.url }}/jsp/">Jsp</a></li>
-                    <li><a href="{{ site.url }}/javascript/">Javascript</a></li>
+                    <li><a href="{{ site.url }}/web/">Web</a></li>
+                    <li><a href="{{ site.url }}/c/">C</a></li>
+                    <li><a href="{{ site.url }}/db/">DB</a></li>
                     <li><a href="{{ site.url }}/algorithm/">Algorithm</a></li>
-                    <li><a href="{{ site.url }}/os/">Os</a></li>                                        
+                    <li><a href="{{ site.url }}/dataStructure/">DataStructure</a></li>
+                    <li><a href="{{ site.url }}/os/">Os</a></li>
                     <li><a href="{{ site.url }}/etc/">Etc</a></li>
-                    <li><a href="{{ site.url }}/daily/">Daily</a></li>                    
-					<li><a href="{{ site.url }}/tags/">All Tags</a></li>
-				</ul>
+                    <li><a href="{{ site.url }}/tags/">All Tags</a></li>
+                </ul>
 			</li>
 			{% for link in site.data.navigation %}
 		    {% if link.url contains 'http' %}
