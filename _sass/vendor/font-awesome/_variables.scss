@@ -1,15 +1,15 @@
 // Variables
 // --------------------------
 
-$fa-font-path: "../fonts/FontAwesome/" !default;
-$fa-font-size-base: 14px !default;
+$fa-font-path:        "../fonts/FontAwesome/" !default;
+$fa-font-size-base:   14px !default;
 $fa-line-height-base: 1 !default;
 //$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts" !default; // for referencing Bootstrap CDN font files directly
-$fa-css-prefix: fa !default;
-$fa-version: "4.7.0" !default;
-$fa-border-color: #eee !default;
-$fa-inverse: #fff !default;
-$fa-li-width: (30em / 14) !default;
+$fa-css-prefix:       fa !default;
+$fa-version:          "4.7.0" !default;
+$fa-border-color:     #eee !default;
+$fa-inverse:          #fff !default;
+$fa-li-width:         (30em / 14) !default;
 
 $fa-var-500px: "\f26e";
 $fa-var-address-book: "\f2b9";
@@ -787,47 +787,7 @@ $fa-var-wrench: "\f0ad";
 $fa-var-xing: "\f168";
 $fa-var-xing-square: "\f169";
 $fa-var-y-combinator: "\f23b";
-$fa-var-y-comb //colors
-$bodycolor: #D24D57;
-$black: #000;
-$white: #fff;
-$color_gray: #e8e8e8;
-$red: #FF4136;
-$maroon: #85144b;
-$color_tuatara: #383838;
-$color_shark: #282828;
-$color_mischka: #d0d1d5;
-$color_mercury: #e5e6e9;
-$color_bon_jour: #dfe0e4;
-$color_gallery: #f0f0f0;
-$color_stack: #8c8b8b;
-$color_alabaster: #f9f9f9;
-$color_tundora: #444;
-$color_fuscous_gray: #555;
-$color_alabaster: #fcfcfc;
-$color_celeste: #ccc;
-$color_pink_swan: #bbb;
-$comp-color: complement(#222);
-
-//button colors
-$success: #5cb85c;
-$warning: #dd8338;
-$danger: #C64537;
-$info: #308cbc;
-
-//fonts
-$font1: Fira Sans,sans-serif;
-$font2: Inconsolata;
-$alt-font: serif;
-$doc-font-size: 16;
-$doc-line-height: 26;
-
-//media
-$small: "only screen and (max-width: 30em)";
-$medium: "only screen and (min-width: 30.1em) and (max-width: 48em)";
-$large: "only screen and (min-width: 48.1em) and (max-width: 62.5em)";
-$notsmall: "only screen and (min-width: 48em)";
-inator-square: "\f1d4";
+$fa-var-y-combinator-square: "\f1d4";
 $fa-var-yahoo: "\f19e";
 $fa-var-yc: "\f23b";
 $fa-var-yc-square: "\f1d4";
