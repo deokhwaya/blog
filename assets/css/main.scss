@@ -1,7 +1,6 @@
 ---
 sitemap: false
 ---
-
 /*
  *
  *  Moon
@@ -10,9 +9,9 @@ sitemap: false
  *  WEB: http://taylantatli.me
  *
 */
-
 // Partials
-@import "variables";
+@import "variables"
+;
 @import "mixins";
 @import "normalize";
 @import "site";
