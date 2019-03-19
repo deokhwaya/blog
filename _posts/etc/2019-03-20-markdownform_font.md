@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'MARKDOWN 사용법(문법)'
-excerpt: 제목, 인용문, 목록(글번호 유무), 코드, 수평선, 링크, 강조, 이미지
+title: 'MARKDOWN 사용법(문법) 2'
+excerpt: 
 category: etc
 tags:
   - MARKDOWN
@@ -153,18 +153,18 @@ comments: false
         Link:[Google][googlelink]
         [googlelink]: https//google.com "Go google"
 
-[Google][googlelink] 
-[googlelink]:https://google.com "Go google"
+    [link keyword][id]
+    [id]:URL "Optional Title here"
+
+    Link:[Google][googlelink]
+    [googlelink]: https//google.com "Go google"
 
 * 인라인 링크
  
         syntax:[title](link)
-        [title](link)
         ex) syntax:[google](https//google.com)
 
     syntax:[google](https//google.com)
-
-    [google](https//google.com)
 
 * 자동연결
 
@@ -176,12 +176,12 @@ comments: false
 
 # 강조
 
-    *single asterisks* 이텔릭체
-    _single underscores_ 이텔릭체
-    **double asterisks** 볼드체
-    __double underscores__ 볼드체
-    ++underline++  밑줄
-    ~~cancelline~~ 삭제 줄
+    *single asterisks*
+    _single underscores_
+    **double asterisks**
+    __double underscores__
+    ++underline++
+    ~~cancelline~~
 
 *single asterisks*
 _single underscores_
@@ -190,42 +190,13 @@ __double underscores__
 ++underline++
 ~~cancelline~~
 
-# 표 작성
-> 표 만들어주는 사이트 참고
-> [관련 사이트](http://www.tablesgenerator.com/markdown_tables)
-
-
 # 이미지
-    ![대체택스트](파일경로)
-    ![대체택스트](/img/sample/sampleImg.jpg)
-    ![대체텍스트](/img/sample/sampleImg.jpg "Optional title")
+    ![Alt text](/img/sample/sampleImg.jpg)
+    ![Alt text](/img/sample/sampleImg.jpg "Optional title")
 
 ![Alt text](/img/sample/sampleImg.jpg)
 ![Alt text](/img/sample/sampleImg.jpg "Optional title")
 
-# 기타 문법 사항
-> [관련 사이트1](https://blog.kalkin7.com/2014/02/05/wordpress-markdown-quick-reference-for-koreans/)
-> [관련 사이트2](https://blog.kalkin7.com/2014/02/05/wordpress-markdown-quick-reference-for-koreans/)
-> [관련 사이트3](http://magic.wickedmiso.com/117)
-
 * 참고문서
-  > ihoneymon의 마크다운 markdown 작성법 [관련문서링크](https://gist.github.com/ihoneymon/652be052a0727ad59601)
-  >
-  > 놀부의 마크다운 사용법 
-    [관련문서링크](https://nolboo.kim/blog/2014/04/15/how-to-use-markdown/)
-  >
-  > 허니몬의 마크다운 Markdown 이야기
-  [관련문서링크](https://www.slideshare.net/ihoneymon/ss-40575068)
-  >
-  > https://hashcode.co.kr/questions/1772/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EB%AC%B8%EB%B2%95-%EC%9E%91%EC%84%B1-%ED%8C%81
-  >
-  >https://blog.kalkin7.com/2014/02/05/wordpress-markdown-quick-reference-for-koreans/
-  >
-  >https://blog.kalkin7.com/2014/02/05/wordpress-markdown-quick-reference-for-koreans/
-  >
-  >http://magic.wickedmiso.com/117
-
- 
-
-
-
+  > ihoneymon의 마크다운 markdown 작성법
+ 관련문서:[링크](https://gist.github.com/ihoneymon/652be052a0727ad59601)
